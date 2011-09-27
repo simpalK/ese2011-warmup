@@ -1,0 +1,19 @@
+package mycalender;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.security.acl.*;
+import java.util.Enumeration;
+import sun.security.acl.*;
+
+
+public class MyCalenderClass {
+	
+	Group g = new GroupImpl("group1");
+	flag = g.addMember(p1);
+	if (flag == false)
+	System.out.println("Principal user1 already set");
+	flag = g.addMember(p2);
+	if (flag == false)
+	System.out.println("Principal user2 already set");
+}

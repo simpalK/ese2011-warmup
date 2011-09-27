@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="var" path="Google Data Plugin">
+		<attributes>
+			<attribute name="plugin_id" value="com.google.gdata"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/cherie/eclipse/plugins/com.google.gdt.eclipse.appengine.rpc_2.4.0.rc1_r36v201107221751.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

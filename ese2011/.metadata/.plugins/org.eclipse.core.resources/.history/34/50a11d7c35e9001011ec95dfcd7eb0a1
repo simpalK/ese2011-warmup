@@ -1,0 +1,37 @@
+package mycalender;
+
+import static org.junit.Assert.*;
+
+import java.util.logging.Logger;
+
+import junit.framework.Assert;
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+public class MyCalenderClassTest extends TestCase {
+	private MyCalenderClass sone = null, stwo = null; 
+	   public MyCalenderClassTest(String name) {
+	      super(name);
+	   }
+	   public void setUp() {
+	      Users u=new Users();
+	      u.setUsername("b");
+	      sone = MyCalenderClass.getMyCalenderClassInstance("a", u);
+	      stwo = MyCalenderClass.getMyCalenderClassInstance("a", u);
+	      
+	   }
+	   public void testUnique() {
+	      Assert.assertEquals(true, sone == stwo);
+	   }
+	@Test
+	public void testGetMyCalenderClassInstance() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testViewEvent() {
+		fail("Not yet implemented");
+	}
+
+}

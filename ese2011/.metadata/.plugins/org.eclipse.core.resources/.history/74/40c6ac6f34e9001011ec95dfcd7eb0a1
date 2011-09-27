@@ -1,0 +1,19 @@
+package mycalender;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MyCalenderClassTest {
+
+	@Test
+	public void testGetMyCalenderClassInstance() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testViewEvent() {
+		fail("Not yet implemented");
+	}
+
+}

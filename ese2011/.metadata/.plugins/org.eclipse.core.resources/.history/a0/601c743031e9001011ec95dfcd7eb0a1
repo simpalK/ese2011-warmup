@@ -1,0 +1,28 @@
+package mycalender;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+
+public class MyCalenderClass {
+	public String calendarName;
+	public Users ownername;
+	public Events events[];
+	public Users calUsers[];
+	private static MyCalenderClass calinstance =null;
+	private MyCalenderClass()
+	{
+		
+	}
+	MyCalenderClass(String calname,Users owname)
+	{
+		calendarName = calname;
+		ownername=owname;
+	}
+	public void addEvent(Date start,Date end,String owner,String eventname){
+		
+	}
+ 
+}

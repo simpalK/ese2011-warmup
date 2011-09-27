@@ -1,0 +1,37 @@
+package mycalender;
+
+import static org.junit.Assert.*;
+
+import java.util.logging.Logger;
+import org.apache.log4j.Logger;
+import org.junit.Test;
+
+public class MyCalenderClassTest {
+	private MyCalenderClass sone = null, stwo = null;
+	   private static Logger logger = Logger.getRootLogger();
+	   public SingletonTest(String name) {
+	      super(name);
+	   }
+	   public void setUp() {
+	      logger.info("getting singleton...");
+	      sone = ClassicSingleton.getInstance();
+	      logger.info("...got singleton: " + sone);
+	      logger.info("getting singleton...");
+	      stwo = ClassicSingleton.getInstance();
+	      logger.info("...got singleton: " + stwo);
+	   }
+	   public void testUnique() {
+	      logger.info("checking singletons for equality");
+	      Assert.assertEquals(true, sone == stwo);
+	   }
+	@Test
+	public void testGetMyCalenderClassInstance() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testViewEvent() {
+		fail("Not yet implemented");
+	}
+
+}

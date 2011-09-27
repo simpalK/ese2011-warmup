@@ -1,0 +1,17 @@
+package mycalender;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class MyCalenderClassTest {
+
+	@Test
+	public void testMultiply() {
+		MyCalenderClass tester = new MyCalenderClass();
+		assertEquals("Result", 50, tester.multiply(10, 5));
+		
+	}
+
+}

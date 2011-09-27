@@ -1,0 +1,15 @@
+package mycalender;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.security.acl.*;
+import java.util.Enumeration;
+import sun.security.acl.*;
+
+
+public class MyCalenderClass {
+	public int multiply(int x, int y) {
+		return x * y;
+	}
+
+}
